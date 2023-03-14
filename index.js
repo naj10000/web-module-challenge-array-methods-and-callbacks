@@ -7,7 +7,7 @@ Practice accessing data by console.log-ing the following pieces of data note.
 
 💡 HINT: You may want to filter the data first 😉*/
 const twentyForteenFinals = fifaData.filter((data)=>{
-    return data['Year'] === 2014
+    return data['Year'] === 2014 && data.Stage ==='Final'
 })
 
 console.log(twentyForteenFinals)
